@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BHARATH J </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">    
 </head>
@@ -19,6 +20,40 @@
         </ul>
     </div>
     </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">BHARATH J </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()" >Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()" >Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()" >Contact</a></li>  
+            </div>
+        </div> 
+    </nav>
+    <section id="profile">
+        <div class="profile_image_container">
+            <img src="./assets/profile-pic.png" alt="BHARATH J Profile Picture">
+        </div>  
+        <div class="section_text">
+            <p class="section_text_p1"> Hello, I'm </p>
+            <h1 class="title"> BHARATH J </h1>
+            <p class="section_text_p2"> Penetration Tester</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')"> Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact</button>
+            </div>
+            <div id="socials-container">
+                <img src="/assets/linkedin.png" alt="linkedin Profile"  onclick="location.href='https://www.linkedin.com/in/bharathj46'" class="icon">
+                <img src="/assets/github.png" alt="Github Profile"  onclick="location.href='https://www.github.com/ne0psych'" class="icon">
+            </div>
+        </div>      
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
