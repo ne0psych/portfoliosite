@@ -9,6 +9,7 @@
   #contact,
   #projects {
     height: fit-content;
+    margin-bottom: 9rem;
   }
 }
 
@@ -50,7 +51,7 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: 27vh;
   }
   #profile {
     height: 58vh;
