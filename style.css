@@ -169,27 +169,27 @@ section {
   height: 80vh;
 }
 
-.section__pic-container {
+.picture_container {
   display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
 }
 
-.section__text {
+.section_txt {
   align-self: center;
   text-align: center;
 }
 
-.section__text p {
+.section_txt p {
   font-weight: 600;
 }
 
-.section__text__p1 {
+.section_txt__p1 {
   text-align: center;
 }
 
-.section__text__p2 {
+.section_txt__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -308,7 +308,7 @@ section {
   height: 80%;
 }
 
-.section__pic-container {
+.picture_container {
   height: 400px;
   width: 400px;
   margin: auto 0;
